@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* topo da pagina */
+header{
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+header > h2{
+    color: white;
+    font-family: 'GenshinCurso', sans-serif;
+}
+/* topo da pagina */
+
+/* final da página */
+footer{
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #111;
+     color: white;
+     text-align: center;
+}
+/* final da página  */
+.link-genshin{
+    text-decoration: none;
+    color: rgb(70, 255, 224);
+}
+footer > ul{
+    list-style-type: none;
+}
+.login{
+    background-color: #111;
+    text-align: right;
+    margin-bottom: 1px;
+}
+p{
+    font-size: 20px;
+}
+.p-1{
+    margin-top: 3rem !important;
+}
+.btn{
+    margin-left: 30rem !important;
+}   
